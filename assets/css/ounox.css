@@ -1,0 +1,206 @@
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	margin: 0;
+	color: #333;
+	background: #eee;
+	/* font-family: sans-serif; */
+}
+
+html {
+	margin-top: 0;
+}
+
+body {
+    font-style: normal;
+    font-weight: 400;
+    color: #999;
+	background-color: #f3f3f3;
+	line-height: 1.7;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.post-categories {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 0;
+}
+
+.custom-logo {
+	text-decoration: none !important;
+}
+
+/** Ounox Inner Container **/
+.ounox-inner, .single-post .ounox-inner {
+	display: flex;
+	max-width: 100%;
+	justify-content: center;
+	margin: auto;
+}
+
+.home .ounox-inner {
+	display: block;
+}
+
+.blog .ounox-container, .single-post .ounox-container, .archive .ounox-container {
+	max-width: 1400px;
+	display: flex;
+	margin: auto;
+}
+/** Ounox Inner Container **/
+
+/** Theme Header CSS **/
+.header-inner {
+	display: flex;
+	max-width: 1400px;
+	justify-content: flex-start;
+	margin: auto;
+	padding: 15px 0;
+}
+
+.header-column {
+	flex: 1;
+}
+
+.header-column:nth-child(2) {
+	text-align: center;
+}
+
+.header-column:nth-child(3) {
+	text-align: right;
+}
+
+.nav {
+	list-style-type: none;
+    margin: 0 auto;
+	padding: 0;
+	text-align:center;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav li a {
+	display:inline-block;
+    padding:10px;
+	text-decoration: none;
+	/* color: #999; */
+}
+
+.menu-main-navigation-container {
+	margin: 0 auto;
+}
+/** Theme Header CSS **/
+
+/** Theme Footer CSS **/
+.copyright-text {
+	text-align: center;
+	display: block;
+	widows: 100%;;
+}
+
+footer {
+	background-color: #333;
+	padding: 50px 0;
+}
+
+#menu-footer-navigation {
+	list-style-type: none;
+    margin: 0 auto;
+	padding: 0;
+	text-align:center;
+}
+
+#menu-footer-navigation li {
+	display: inline;
+}
+
+#menu-footer-navigation li a {
+	display:inline-block;
+    padding:10px;
+	text-decoration: none;
+	color: #999;
+}
+
+.menu-footer-navigation-container {
+	margin: 0 auto;
+}
+/** Theme Footer CSS **/
+
+/** Banner Sample **/
+.banner-sample {
+	background-color: #999;
+	text-align: center;
+	padding: 200px 0;
+}
+
+.banner-text {
+	font-size: 68px;
+	color: #333;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+/** Banner Sample **/
+
+/** Content CSS **/
+.row {
+	padding: 100px 0;
+}
+
+h2 {
+	font-size: 32px;
+	color: #333;
+	margin: 0;
+}
+
+.width-reducer {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+/** Content CSS **/
+
+/** Blog CSS **/
+
+.ounox-inner {
+	flex: 5;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ounox-sidebar {
+	flex: 1;
+}
+
+.blog-column {
+	flex-grow: 1;
+  	width: 33%;
+}
+
+.archive .blog-column {
+	flex-grow: 1;
+	width: 100%;
+}
+
+/** Blog CSS **/
+
+/** Theme Customizer CSS **/
+
+.customize-control-title {
+    width: 120%;
+    margin-left: -10px;
+    background-color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 8px 10px;
+	margin-bottom: 10px !important;
+}
+
+/** Theme Customizer CSS **/
